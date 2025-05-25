@@ -1,0 +1,19 @@
+﻿<Window x:Class="ClassRoomWPF_DB_TP.Pages.NewMarkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClassRoomWPF_DB_TP.Pages"
+        mc:Ignorable="d"
+        Height="450" Width="800"
+        Title="Новая оценка">
+
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock x:Name="StudentName" Text="Выставить оценку {имя ученика}" FontSize="18" Margin="0,0,0,10"/>
+            <TextBlock Text="Оценка (1–5)" Margin="0,0,0,5"/>
+            <TextBox x:Name="GradeValue" Margin="0,0,0,15"/>
+            <Button Content="Поставить" Click="GiveGrade" />
+        </StackPanel>
+    </Grid>
+</Window>

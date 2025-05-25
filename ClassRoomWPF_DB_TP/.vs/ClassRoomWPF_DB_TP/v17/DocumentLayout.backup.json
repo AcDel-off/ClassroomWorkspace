@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ClassRoomWPF_DB_TP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4E6C47-1C29-4A6B-8245-C3C24541298F}|ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP.csproj|c:\\users\\user\\source\\repos\\classroomwpf_db_tp\\classroomwpf_db_tp\\pages\\studentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4E6C47-1C29-4A6B-8245-C3C24541298F}|ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP.csproj|solutionrelative:classroomwpf_db_tp\\pages\\studentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4E6C47-1C29-4A6B-8245-C3C24541298F}|ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP.csproj|c:\\users\\user\\source\\repos\\classroomwpf_db_tp\\classroomwpf_db_tp\\pages\\studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1B4E6C47-1C29-4A6B-8245-C3C24541298F}|ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP.csproj|solutionrelative:classroomwpf_db_tp\\pages\\studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml.cs",
+              "RelativeDocumentMoniker": "ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml.cs",
+              "RelativeToolTip": "ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:20:35.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml",
+              "RelativeDocumentMoniker": "ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClassRoomWPF_DB_TP\\ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml",
+              "RelativeToolTip": "ClassRoomWPF_DB_TP\\Pages\\StudentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T11:20:34.219Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
