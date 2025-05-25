@@ -137,3 +137,5 @@ C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.
 C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.0-windows\Pages\TeachersStudentPage.g.cs
 C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.0-windows\Pages\NewMarkWindow.baml
 C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.0-windows\Pages\TeachersStudentPage.baml
+C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.0-windows\Pages\UpdateMarkWindow.g.cs
+C:\Users\User\source\repos\ClassRoomWPF_DB_TP\ClassRoomWPF_DB_TP\obj\Debug\net9.0-windows\Pages\UpdateMarkWindow.baml

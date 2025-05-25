@@ -16,18 +16,23 @@ using System.Windows.Shapes;
 
 namespace ClassRoomWPF_DB_TP.Pages
 {
-    public partial class NewMarkWindow : Window
+    public partial class UpdateMarkWindow : Window
     {
         private int StudentId { get; }
+        private int GradeId { get; }
 
-        public NewMarkWindow(int studentId)
+        public UpdateMarkWindow(int studentId, int gradeId)
         {
             InitializeComponent();
             StudentId = studentId;
-            StudentName.Text = $"Выставить оценку ученику: {new SchoolContext().Students.FirstOrDefault(s => s.Id == StudentId)!.FullName}";
+            GradeId = gradeId;
+            using var db = new SchoolContext();
+            var grade = db.Grades.FirstOrDefault(s => s.Id == GradeId);
+            StudentName.Text = $"Обновить оценку от {grade!.GivenAt:dd.MM.yyyy} ученика: {db.Students.FirstOrDefault(s => s.Id == StudentId)!.FullName}";
+            GradeValue.Text = grade.Value.ToString();
         }
 
-        private void GiveGrade(object sender, RoutedEventArgs e)
+        private void UpdateGrade(object sender, RoutedEventArgs e)
         {
             if (!int.TryParse(GradeValue.Text, out int val) || val < 1 || val > 5)
             {
@@ -36,20 +41,11 @@ namespace ClassRoomWPF_DB_TP.Pages
             }
 
             using var db = new SchoolContext();
-            var teacher = db.Teachers.Find(UserSession.CurrentUser.Id);
-            var student = db.Students.SingleOrDefault(s => s.Id == StudentId);
-            var subject = db.Subjects.Single(s => s.Name == teacher!.SubjectName);
-            var grade = new Grade
-            {
-                Student = student!,
-                Teacher = teacher!,
-                Subject = subject,
-                Value = val
-            };
-            db.Grades.Add(grade);
+            var grade = db.Grades.FirstOrDefault(s => s.Id == GradeId);
+            grade!.Value = val;
             db.SaveChanges();
 
-            MessageBox.Show($"Оценка {val} выставлена {student!.FullName}");
+            MessageBox.Show($"Оценка от {grade.GivenAt:dd.MM.yyyy} обновлена: {db.Students.FirstOrDefault(s => s.Id == StudentId)!.FullName}");
 
             DialogResult = true;
             Close();

@@ -32,5 +32,8 @@
     <Compile Update="Pages\TeachersStudentPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\UpdateMarkWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
