@@ -16,15 +16,6 @@ namespace ClassRoomWPF_DB_TP.Pages
 
             using var db = new SchoolContext();
 
-            /*var admin = new Administrator                 не включать и удалить!! в базе данных админ уже создан
-            {
-                FullName = StartAdministrator.FullName,
-                Login = StartAdministrator.Login,
-                Password = StartAdministrator.Password
-            };
-            db.Administrators.Add(admin);
-            db.SaveChanges();*/
-
             var user = db.Persons.FirstOrDefault(p => p.Login == login && p.Password == pwd);
             if (user == null)
             {

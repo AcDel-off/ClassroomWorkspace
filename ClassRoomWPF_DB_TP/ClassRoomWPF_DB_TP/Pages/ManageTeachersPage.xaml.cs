@@ -16,7 +16,6 @@ namespace ClassRoomWPF_DB_TP.Pages
         {
             using var db = new SchoolContext();
             TeachersList.ItemsSource = db.Teachers
-                //.Select(t => $"{t.Id}: {t.FullName} ({t.Login}) – {t.SubjectName}")
                 .Select(t => $"{t.FullName} ({t.Login}) - {t.SubjectName}")
                 .ToList();
         }

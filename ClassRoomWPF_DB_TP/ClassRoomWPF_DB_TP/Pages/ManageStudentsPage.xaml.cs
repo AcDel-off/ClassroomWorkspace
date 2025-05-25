@@ -19,7 +19,6 @@ namespace ClassRoomWPF_DB_TP.Pages
         {
             using var db = new SchoolContext();
             StudentsList.ItemsSource = db.Students
-                //.Select(s => $"{s.Id}) {s.FullName} ({s.Login})")
                 .Select(s => $"{s.FullName} ({s.Login})")
                 .ToList();
         }

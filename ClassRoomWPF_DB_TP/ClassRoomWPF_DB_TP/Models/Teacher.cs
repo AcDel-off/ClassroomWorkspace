@@ -6,6 +6,5 @@ namespace ClassRoomWPF_DB_TP.Models
     {
         public override string RoleName => "Учитель";
         public string SubjectName { get; set; } = "";
-        //public List<Grade> GivenGrades { get; set; } = new(); удалить потом, т.к. не используется
     }
 }
